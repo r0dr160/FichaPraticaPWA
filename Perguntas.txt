@@ -6,6 +6,9 @@
 
 
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
+	Sob meu ponto de vista, entre as várias vantagens, posso listar como às principais: Isolamento, organização, colaboração, histórico, experimentação segura, correções rápidas e fluxo de trabalho flexível.
+
+
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
