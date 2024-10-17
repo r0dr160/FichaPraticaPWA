@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <style>
+        .bold { font-weight: bold; }
+        .italic { font-style: italic; }
+        .underline { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Perguntas e Respostas</h1>
+    <ol>
+        <li><span class="bold">O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</span>
+            <p>Commit é uma operação que registra as mudanças feitas no repositório local, criando um ponto de restauração.
+            Push envia os commits do repositório local para o repositório remoto.
+            Pop restaura mudanças temporariamente guardadas no stash (frequentemente usado em trabalhos não finalizados).</p>
+        </li>
+        <li><span class="bold">Quais são as vantagens de usar Branches num repositório Git?</span>
+            <p>As principais vantagens incluem isolamento de funcionalidades, organização, colaboração, histórico limpo, experimentação segura, correções rápidas e fluxo de trabalho flexível.</p>
+        </li>
+        <li><span class="bold">Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</span>
+            <p>Conflitos em um merge ocorrem quando o Git não consegue combinar automaticamente alterações feitas no mesmo arquivo em dois branches ou entre o conteúdo de um pop e o branch atual.
+            O Git marca o arquivo com delimitadores <<<<<<, ======, e >>>>>>. Para resolver, é preciso editar o arquivo manualmente, escolher as mudanças corretas, remover os delimitadores e salvar.
+            Depois, use 'git add' e 'git commit' para registrar a resolução.</p>
+        </li>
+        <li><span class="bold">“Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</span>
+            <p>Clone faz uma cópia local de um repositório. Com permissão, você pode enviar mudanças diretamente para o original.
+            Fork é uma cópia online do repositório no GitHub (ou outras plataformas), criada em sua própria conta. As mudanças são feitas no fork, e você sugere alterações ao repositório original via pull request.</p>
+        </li>
+    </ol>
+</body>
+</html>
