@@ -12,6 +12,12 @@
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
+	Conflitos em um merge acontecem quando o Git não consegue, de maneira automática, combinar às alterações feitas no mesmo ficheiro em dois branches ou entre o conteúdo de um pop e o branch atual.
+	O Git destaca o ficheiro com os conflitos utilizando delimitadores <<<<<<, ======, e >>>>>>.
+Para resolver a situação em causa, é preciso editar manualmente o ficheiro, escolher as mudanças corretas, remover os delimitadores e guardar.
+	Após resolver o conflito, deve-se adicionar novamente o conteúdo utilizando 'git add' e realizar um novo commit 'git commit':
+
+
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
